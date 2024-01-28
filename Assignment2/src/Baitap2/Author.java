@@ -1,10 +1,8 @@
 package Baitap2;
-
 public class Author {
     // attributes: id: ma tac gia; name: ten tac gia
     private int id;
     private String name;
-
     // constructor k tham so
     public Author() {
     }

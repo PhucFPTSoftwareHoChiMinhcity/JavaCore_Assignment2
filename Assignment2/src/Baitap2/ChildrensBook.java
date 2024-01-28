@@ -10,7 +10,7 @@ public class ChildrensBook extends Book{
         this.recommendedAge = recommendedAge;
     }
 
-    public ChildrensBook(String title, String author, double price, int quantityInStock, int recommendedAge) {
+    public ChildrensBook(String title, Author author, double price, int quantityInStock, int recommendedAge) {
         super(title, author, price, quantityInStock);
         this.recommendedAge = recommendedAge;
     }

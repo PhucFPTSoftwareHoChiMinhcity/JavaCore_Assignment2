@@ -18,14 +18,14 @@ public class ReverseWordsInSentence {
     // Phương thức đảo ngược thứ tự từ trong câu
     private static String reverseWords(String sentence) {
         // Tách câu thành mảng các từ
-        String[] words = sentence.split("\\s+");
+        String[] words = sentence.split("");
 
         // Tạo một StringBuilder để xây dựng câu mới
         StringBuilder reversedSentence = new StringBuilder();
 
         // Đảo ngược thứ tự từ và thêm vào StringBuilder
         for (int i = words.length - 1; i >= 0; i--) {
-            reversedSentence.append(words[i]).append(" ");
+            reversedSentence.append(words[i]);
         }
 
         // Chuyển StringBuilder thành chuỗi và loại bỏ khoảng trắng cuối cùng

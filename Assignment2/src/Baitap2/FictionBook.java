@@ -7,11 +7,13 @@ public class FictionBook extends Book{
     }
     // constructor co tham so
 
+
     public FictionBook(String genre) {
+
         this.genre = genre;
     }
 
-    public FictionBook(String title, String author, double price, int quantityInStock, String genre) {
+    public FictionBook(String title, Author author, double price, int quantityInStock, String genre) {
         super(title, author, price, quantityInStock);
         this.genre = genre;
     }
